@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Layout Demo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <h1>Responsive Web Design</h1>
+    <nav class="nav-bar">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="grid-container">
+    <aside class="sidebar">
+      <h2>Sidebar</h2>
+      <p>This section uses CSS Grid for layout placement.</p>
+    </aside>
+
+    <main class="main-content">
+      <section class="card-container">
+        <div class="card">
+          <h3>Card One</h3>
+          <p>Flexbox aligns these cards in a row or column depending on screen size.</p>
+        </div>
+        <div class="card">
+          <h3>Card Two</h3>
+          <p>Responsive units and media queries make this layout fluid.</p>
+        </div>
+        <div class="card">
+          <h3>Card Three</h3>
+          <p>Resize the screen to see how the layout adapts.</p>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 Responsive Design Project</p>
+  </footer>
+
+</body>
+</html>
